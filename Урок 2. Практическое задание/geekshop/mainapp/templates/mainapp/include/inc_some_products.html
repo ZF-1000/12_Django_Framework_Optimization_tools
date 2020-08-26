@@ -1,0 +1,12 @@
+{% load static %}
+{% for some_product in some_products %}
+    <div class="block">
+        <a href="#"><img src="{% static some_product.image_src %}" alt="{{ some_product.alt }}">
+            <div class="text">
+                <img src="{% static 'img/icon-hover.png' %}" alt="img">
+                <h4>{{ some_product.name }}</h4>
+                <p>{{ some_product.desc }}</p>
+            </div>
+        </a>
+    </div>
+{% endfor %}
