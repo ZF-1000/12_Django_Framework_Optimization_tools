@@ -1,0 +1,4 @@
+http://192.168.1.215/auth/login/ POST username=django&password=geekbrains
+http://192.168.1.215/order/
+http://192.168.1.215/auth/edit/
+http://192.168.1.215/contact/
